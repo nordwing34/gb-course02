@@ -1,0 +1,179 @@
+/**********************************************************/
+
+@media(max-width: 850px) {
+	.fscreen{
+		&__img{
+			// width: 47%;
+			width: 195px;
+			margin: 0 auto;
+		}
+		&__h1{
+			line-height: 52px;
+			font-size: 44px;
+		}
+		&__descr{
+			line-height: 28px;
+			font-size: 22px;
+		}
+	}
+	.subscr{
+		&__item{
+			width: 100%;
+		}
+	}
+}
+
+@media(max-width: 768px){
+	.subscr{
+		&__text{
+			font-size: 18px;
+		}f
+		&__h2{
+			font-size: 22px;
+		}
+		&__descr{
+			font-size: 14px;
+		}
+		&__inptxt{
+			width: 160px;
+		}
+	}
+
+	.adv{
+		display: block;
+		padding-bottom: 48px;
+
+		&__item{
+			margin: 0 auto;
+			padding: 48px 15px 0;
+		}
+	}
+
+	.fcollage{
+		margin: 20px 0 30px;
+	}
+
+	.collage{
+		grid-gap: 20px;
+	}
+
+	.carts{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 18px;
+	}
+
+	.filters{
+		&__left{
+			a span{
+				display: none;
+			}
+			a:after{
+				width: 24px;
+				height: 24px;
+				top: -12px;
+				right: -28px;
+				background-size: 100%;
+			}
+		}
+		&__right{
+			min-width: 280px;
+		}
+	}
+
+	.reg{
+		display: block;
+
+		&__item:first-child{
+			width: auto;
+			margin: 0 0 40px;
+		}
+
+		form {
+			width: auto;
+		}
+
+		&__lprh2, &__lprp{
+			font-size: 16px;
+			line-height: 19px;
+		}
+		&__lprli{
+			font-size: 16px;
+		}
+	}
+
+}
+
+@media(max-width: 610px){
+	.fscreen{
+		&__h1{
+			line-height: 34px;
+			font-size: 34px;
+		}
+		&__descr{
+			line-height: 16px;
+			font-size: 16px;
+		}
+	}
+
+	.collage{
+		display: block;
+
+		&__item{
+			margin-bottom: 30px;
+		}
+	}
+
+	// .reg{
+	// 	display: block;
+
+	// 	&__item:first-child{
+	// 		margin-bottom: 40px;
+	// 	}
+	// 	&__item:first-child, &__item:last-child{
+	// 		width: 100%;
+	// 	}
+
+	// 	form{
+	// 		width: 100%;
+	// 	}
+	// }
+}
+
+
+@media(max-width: 375px) {
+	.fscreen{
+		&__item{
+			width: 100%;
+			padding: 0 32px;
+		}
+
+		&__item:first-child{
+			display: none;
+		}
+	}
+
+	.top__righticon:nth-child(2), .top__righticon:nth-child(3) {
+		display: none;
+	}
+
+	.footer{
+		padding: 20px 0;
+		flex-direction: column-reverse;
+
+		&__item{
+			text-align: center;
+
+			&:first-child{
+				margin-top: 32px;
+			}
+		}
+	}
+
+	.carts{
+		display: block;
+		width: 100%;
+	}
+}
+
+

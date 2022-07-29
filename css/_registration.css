@@ -1,0 +1,124 @@
+/**********************************************************/
+.reg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 64px 0 0;
+}
+
+.reg__item:first-child {
+  width: 360px;
+}
+
+.reg__item:last-child {
+  max-width: 652px;
+  margin-left: 15px;
+}
+
+.reg form {
+  width: 360px;
+}
+
+.reg__input {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 13px 17px;
+  margin-bottom: 20px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #B1B1B1;
+}
+
+.reg label {
+  padding: 0 15px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  color: #000000;
+}
+
+.reg__nof {
+  margin-bottom: 20px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #222222;
+}
+
+.reg__nof_last {
+  margin-top: 30px;
+}
+
+.reg__ds {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #B1B1B1;
+}
+
+.reg__button {
+  margin-top: 40px;
+  padding: 16px 30px;
+  width: 166px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+  line-height: 17px;
+  color: #FFFFFF;
+  cursor: pointer;
+  background-color: #F16D7F;
+}
+
+.reg__button:hover {
+  background-color: #F68D9F;
+}
+
+.reg__lprh2 {
+  margin-bottom: 22px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  text-transform: uppercase;
+  line-height: 29px;
+  color: #000000;
+}
+
+.reg__lprp, .reg__lprli {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 34px;
+  color: #000000;
+}
+
+.reg__lprp {
+  margin-bottom: 15px;
+}
+
+.reg__lprli {
+  padding-left: 38px;
+  background-image: url(img/checkmark01.png);
+  background-repeat: no-repeat;
+  background-position: 0 center;
+}
+
+.reg__lii {
+  font-weight: 600;
+}
